@@ -1,0 +1,25 @@
+{
+  "name": "agent-ai-tempo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cruzlxyz/Agent-AI-Tempo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cruzlxyz/Agent-AI-Tempo/issues"
+  },
+  "homepage": "https://github.com/cruzlxyz/Agent-AI-Tempo#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "telegraf": "^4.16.3"
+  }
+}
