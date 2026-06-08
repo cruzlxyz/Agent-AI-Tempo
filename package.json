@@ -1,16 +1,23 @@
 {
   "name": "agent-ai-tempo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Telegram AI Bot using Tempo MPP.",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js",
+    "test": "node --check bot.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cruzlxyz/Agent-AI-Tempo.git"
   },
-  "keywords": [],
+  "keywords": [
+    "telegram",
+    "bot",
+    "tempo",
+    "mpp",
+    "ai"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",

@@ -17,7 +17,7 @@ Telegram AI Bot using Tempo MPP.
 - [Node.js](https://nodejs.org/en/download)
 - [BotFather](https://t.me/BotFather)
 - [Tempo Wallet](https://wallet.tempo.xyz/)
-  
+
 ## 1. Install WSL
 
 ```powershell
@@ -53,19 +53,24 @@ tempo wallet login
 npm install
 ```
 
+> Catatan: `node_modules` tidak disimpan di git. Selalu jalankan `npm install` setelah clone repo.
+
 ## 6. Setup .env
 
+Copy file contoh:
+
 ```bash
+cp .env.example .env
 nano .env
 ```
 
-Isi:
+Isi token bot Telegram kamu:
 
 ```env
 TELEGRAM_TOKEN=TOKEN_BOT_KAMU
 ```
 
-Save:
+Save di nano:
 
 ```text
 CTRL + O
@@ -73,17 +78,13 @@ ENTER
 CTRL + X
 ```
 
-## 7. Edit bot.js
-
-File `bot.js` sudah tersedia di repository ini.
-
-Kalau ingin edit:
+## 7. Run Bot
 
 ```bash
-nano bot.js
+npm start
 ```
 
-## 8. Run Bot
+Atau langsung:
 
 ```bash
 node bot.js
@@ -103,6 +104,12 @@ Bot aktif...
 /exa berita bitcoin hari ini
 ```
 
+## Test / Syntax Check
+
+```bash
+npm test
+```
+
 ## Stop Bot
 
 ```text
@@ -112,7 +119,7 @@ CTRL + C
 ## Run Again
 
 ```bash
-node bot.js
+npm start
 ```
 
 DONE
