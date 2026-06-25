@@ -1,8 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: Tempo Wallet Support
-    url: https://wallet.tempo.xyz/support
-    about: Untuk masalah Tempo wallet, payment, atau MPP endpoint
-  - name: Telegraf Docs
-    url: https://telegraf.js.org/
-    about: Untuk pertanyaan Telegram Bot API
