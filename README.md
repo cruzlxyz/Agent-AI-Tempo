@@ -1,4 +1,4 @@
-# Agent-AI-Tempo
+# tempo-bot-101
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Node](https://img.shields.io/badge/node-%E2%89%A518-green)](https://nodejs.org)
@@ -37,8 +37,8 @@ source ~/.bashrc
 tempo wallet login
 
 # 2. Clone & install
-git clone https://github.com/cruzlxyz/Agent-AI-Tempo.git
-cd Agent-AI-Tempo
+git clone https://github.com/cruzlxyz/tempo-bot-101.git
+cd tempo-bot-101
 npm install
 
 # 3. Setup .env
@@ -92,8 +92,8 @@ tempo wallet login
 ### 5. Install Dependencies
 
 ```bash
-git clone https://github.com/cruzlxyz/Agent-AI-Tempo.git
-cd Agent-AI-Tempo
+git clone https://github.com/cruzlxyz/tempo-bot-101.git
+cd tempo-bot-101
 npm install
 ```
 
@@ -261,12 +261,12 @@ Bot tinggal jadi thin wrapper — semua kerjaan AI & bayar di-handle Tempo. Kamu
 
 ## Contributing
 
-PR welcome! Liat [Issues](https://github.com/cruzlxyz/Agent-AI-Tempo/issues) buat list ide.
+PR welcome! Liat [Issues](https://github.com/cruzlxyz/tempo-bot-101/issues) buat list ide.
 
 Setup local:
 ```bash
-git clone https://github.com/cruzlxyz/Agent-AI-Tempo.git
-cd Agent-AI-Tempo
+git clone https://github.com/cruzlxyz/tempo-bot-101.git
+cd tempo-bot-101
 npm install
 cp .env.example .env
 # edit .env, npm start
