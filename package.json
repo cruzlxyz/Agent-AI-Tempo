@@ -1,11 +1,12 @@
 {
   "name": "agent-ai-tempo",
-  "version": "1.0.0",
-  "description": "Telegram AI Bot using Tempo MPP.",
+  "version": "1.1.0",
+  "description": "Telegram bot that bridges to Tempo MPP — call GPT-4o, DeepSeek, and Exa Search from any Telegram chat.",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js",
-    "test": "node --check bot.js"
+    "test": "node --check bot.js",
+    "dev": "node --watch bot.js"
   },
   "repository": {
     "type": "git",
@@ -16,15 +17,26 @@
     "bot",
     "tempo",
     "mpp",
-    "ai"
+    "ai",
+    "chatbot",
+    "gpt",
+    "deepseek",
+    "exa-search"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "cruzlxyz",
+    "email": "cruzlxyz@gmail.com",
+    "url": "https://github.com/cruzlxyz"
+  },
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/cruzlxyz/Agent-AI-Tempo/issues"
   },
   "homepage": "https://github.com/cruzlxyz/Agent-AI-Tempo#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "dotenv": "^17.4.2",
     "telegraf": "^4.16.3"
